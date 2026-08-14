@@ -1,10 +1,10 @@
 # INVICTUS Logistic
 
 ## Student Information
-Name: Mphidi Asakundwi
-Student number: ST10521417
-Module code: WEDE5020
-Submission: Part 1
+- Name: Mphidi Asakundwi
+- Student number: ST10521417
+- Module code: WEDE5020
+- Submission: Part 1
 
 ## Project Overview
 
