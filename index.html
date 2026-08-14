@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVICTUS Logistics | Home</title>
+</head>
+<body>
+    <header>
+
+        <a href="index.html">
+          <img src="images/logo.png" alt="INVICTUS Logistics logo">
+            INVICTUS Logistics  
+        </a>
+        <!--Main navigation menu>-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quote.html">Get a Quote</a></li>
+                <li><a href="track.html">Track Shipment</a></li>
+
+                <!--This link jumps straight to that section using its id= "account" anchor-->
+
+                <li><a href="#account">Login / Register</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Main content -->
+    <main>
+        <section>
+            <h1>Where bulk and industrial cargo meet precision.</h1>
+            <img src="images/hero.png" alt="INVICTUS Logistics truck on route with cargo loaded">
+
+            <p>INVICTUS Logistics coordinates hauling from ports, airports and 
+                mines, with clear pricing and honest communication &mdash; built
+                for small and big businesses, not just corporate contracts.
+            </p>
+
+            <!--Two main calls to action-->
+            <a href="quote.html">Get a Quote</a>
+            <a href="track.html">Track Shipment</a>
+        </section>
+
+        <section>
+            <h2>What we haul</h2>
+
+            <!--Each <article> below represents one independent services card -->
+            <article>
+                <h3>Port &amp; Bay Hauling</h3>
+                <p>Container and bulk cargo collection straight from the bay.</p>
+                <a href="services.html#port">Learn More</a>
+            </article>
+
+            <article>
+                <h3>Airport Hauling</h3>
+                <p>Time-sensitive air freight collected with priority handling.</p>
+                <a href="services.html#airport">Learn More</a>
+            </article>
+
+            <article>
+                <h3>Mine Hauling</h3>
+                <p>Bulk materials and equipment transport from mine sites.</p>
+                <a href="services.html#mine">Learn More</a>
+            </article>
+
+        </section>
+
+        <section>
+            <h2>How it works</h2>
+            <ol>
+                <li>Request a quote &mdash; tell us what needs to move and where from.</li>
+                <li>We confirm prcing &mdash; a clear quote lands in your inbox.</li>
+                <li>Track your cargo &mdash; follow it from pickup to delivery online.</li>
+            </ol>
+        </section>
+
+        <!--Account section-->
+        <section id="account">
+            <h2>Your account</h2>
+
+            <h3>Login In</h3>
+            <form action="#" method="post">
+
+                <!--'for' on the label must match the 'id' on its inputs, this links them together for accessibility-->
+                <label for="loginEmail">Email address</label>
+                <input type="email" id="loginEmail" name="loginEmail" required>
+
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" name="loginPassword" required minlength="8">
+
+                <!--type="submit" sends the form when clicked-->
+                <button type="submit">Login</button>
+            </form>
+
+            <!-- Register Form -->
+            <!--New customer use this to create an account -->
+            <h3>Create an Account</h3>
+            <form action="#" method="post">
+
+                <label for="registerName">Full Name</label>
+                <input type="text" id="registerName" name="registerName" required>
+
+                <label for="registerEmail">Email address</label>
+                <input type="email" id="registerEmail" name="registerEmail" required>
+
+                <label for="regPhone">Phone Number</label>
+                <input type="tel" id="regPhone" name="Phone" required">
+
+                <label for="registerPassword">Password</label>
+                <input type="password" id="registerPassword" name="registerPassword" required minlength="8">
+
+                <button type="submit">Create Account</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!--Footer
+    Holds contacts details and copyright line.-->
+
+    <footer>
+        <p>&copy; 2026 INVICTUS Logistics. All rights reserved.</p>
+
+        <!--<address> is the correct semantic tag for contact information -->
+        <address>
+            Pretoria, Gauteng<br>
+            <p>Contact us:</p>
+            <a href="mailto:info@invictuslogistics.co.za">info@invictuslogistics.co.za</a><br>
+            <a href="tel:+27721385814">+27 72 138 5814</a>
+        </address>
+        </footer>
+    
+</body>
+</html>
