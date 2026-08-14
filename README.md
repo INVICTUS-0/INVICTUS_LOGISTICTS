@@ -85,9 +85,9 @@ Home (index.html)
 ├── About Us (about.html)
 │
 ├── Services (services.html)
-│   ├── Port & Bay Hauling      → #bay
-│   ├── Airport Hauling         → #airport
-│   └── Mine Hauling            → #mine
+│   ├── Port & Bay Hauling      
+│   ├── Airport Hauling         
+│   └── Mine Hauling            
 │
 ├── Get a Quote (quote.html)
 │
@@ -95,7 +95,7 @@ Home (index.html)
 │
 ├── Contact (contact.html)
 │
-└── Login / Register            → index.html #account
+└── Login / Register            
     (a section on the homepage, not a separate page)
 ```
 
